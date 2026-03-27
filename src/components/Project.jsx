@@ -4,7 +4,7 @@ import { motion, useAnimation, useInView } from "framer-motion"
 import { useRef } from "react"
 import RevealOnScroll from "../animations/RevealOnScroll"
 import { fadeInUp, staggerContainer, staggerItem, cardHover } from "../animations/animations"
-import chatImage from "../assets/projects/chat.png";
+import libraryImage from "../assets/projects/library.png";
 import portImage from "../assets/projects/po.jpg"
 import deliImage from "../assets/projects/delicacy.png"
 
@@ -41,7 +41,7 @@ const MyProject = () => {
                 title: "CHAT-APP",
                 description: "A real-time chat application that allows users to send and receive messages and images instantly",
                 technologies: ["React", "Node.js", "MongoDB", "Zustand" , "Socket.io"],
-                image: chatImage,
+                image: libraryImage,
                 demoLink: "#",
                 githubLink: "https://github.com/lephu2k6/CHAT-APP/",
                 featured: true
@@ -289,3 +289,4 @@ const MyProject = () => {
 }
 
 export default MyProject
+
